@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Membangun Model/Membangun-Model/mlruns/436454120194648610/ab5253503c874f4ca573a04576fc2655/artifacts
+end_time: 1766931065154
+entry_point_name: ''
+experiment_id: '436454120194648610'
+lifecycle_stage: active
+run_id: ab5253503c874f4ca573a04576fc2655
+run_name: RandomForest_Autolog_Basic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766931049372
+status: 3
+tags: []
+user_id: PC
