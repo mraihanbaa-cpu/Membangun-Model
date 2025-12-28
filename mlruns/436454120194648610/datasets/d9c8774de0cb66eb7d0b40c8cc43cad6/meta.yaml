@@ -1,0 +1,17 @@
+digest: 567ddbc1
+name: dataset
+profile: '{"num_rows": 633, "num_elements": 8862}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "rating_average", "required":
+  true}, {"type": "double", "name": "pageCount", "required": true}, {"type": "double",
+  "name": "publicationYear", "required": true}, {"type": "double", "name": "book_age",
+  "required": true}, {"type": "double", "name": "title_length", "required": true},
+  {"type": "double", "name": "adapted_to_movie", "required": true}, {"type": "double",
+  "name": "genre_encoded", "required": true}, {"type": "double", "name": "language_encoded",
+  "required": true}, {"type": "double", "name": "age_category_encoded", "required":
+  true}, {"type": "double", "name": "description_length", "required": true}, {"type":
+  "double", "name": "tags_count", "required": true}, {"type": "double", "name": "publisher_encoded",
+  "required": true}, {"type": "double", "name": "most_popular_country_encoded", "required":
+  true}, {"type": "double", "name": "rating_category_encoded", "required": true}]}'
+source: '{"tags": {"mlflow.user": "PC", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "3f37c7f85600c120a877de22ece482db41f18bd9"}}'
+source_type: code

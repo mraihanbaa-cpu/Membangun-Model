@@ -1,0 +1,10 @@
+artifact_location: file:C:/Membangun Model/Membangun-Model/mlruns/436454120194648610/models/m-ac40426a9da8446c984f47d836667602/artifacts
+creation_timestamp: 1766929462896
+experiment_id: '436454120194648610'
+last_updated_timestamp: 1766929478490
+model_id: m-ac40426a9da8446c984f47d836667602
+model_type: null
+name: model
+source_run_id: 5b996615b1da445cb8555ac3c22653bc
+status: 2
+status_message: null

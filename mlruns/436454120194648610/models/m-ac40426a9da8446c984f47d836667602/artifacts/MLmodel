@@ -1,0 +1,39 @@
+artifact_path: file:C:/Membangun Model/Membangun-Model/mlruns/436454120194648610/models/m-ac40426a9da8446c984f47d836667602/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-ac40426a9da8446c984f47d836667602
+model_size_bytes: 107900
+model_uuid: m-ac40426a9da8446c984f47d836667602
+prompts: null
+run_id: 5b996615b1da445cb8555ac3c22653bc
+signature:
+  inputs: '[{"type": "double", "name": "rating_average", "required": true}, {"type":
+    "double", "name": "pageCount", "required": true}, {"type": "double", "name": "publicationYear",
+    "required": true}, {"type": "double", "name": "book_age", "required": true}, {"type":
+    "double", "name": "title_length", "required": true}, {"type": "double", "name":
+    "adapted_to_movie", "required": true}, {"type": "double", "name": "genre_encoded",
+    "required": true}, {"type": "double", "name": "language_encoded", "required":
+    true}, {"type": "double", "name": "age_category_encoded", "required": true}, {"type":
+    "double", "name": "description_length", "required": true}, {"type": "double",
+    "name": "tags_count", "required": true}, {"type": "double", "name": "publisher_encoded",
+    "required": true}, {"type": "double", "name": "most_popular_country_encoded",
+    "required": true}, {"type": "double", "name": "rating_category_encoded", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-28 13:44:23.034997'
